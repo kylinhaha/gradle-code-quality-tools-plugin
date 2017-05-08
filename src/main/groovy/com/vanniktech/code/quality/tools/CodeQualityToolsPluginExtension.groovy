@@ -158,5 +158,11 @@ class CodeQualityToolsPluginExtension {
          * @since 0.5.0
          */
         Boolean checkAllWarnings
+
+        /**
+         * The baseline file for lint.
+         * @since 0.5.0
+         */
+        File baseline = null
     }
 }
